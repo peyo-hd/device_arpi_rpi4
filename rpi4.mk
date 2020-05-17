@@ -45,7 +45,6 @@ PRODUCT_PACKAGES += \
     libGLES_mesa \
     gralloc.rpi4 \
     memtrack.rpi4 \
-    gatekeeper.rpi4 \
     audio.primary.rpi4 \
     audio.usb.default \
     audio.a2dp.default \
@@ -67,8 +66,7 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@2.0-service \
     android.hardware.keymaster@3.0-impl \
     android.hardware.keymaster@3.0-service \
-    android.hardware.gatekeeper@1.0-impl \
-    android.hardware.gatekeeper@1.0-service \
+    android.hardware.gatekeeper@1.0-service.software \
     android.hardware.memtrack@1.0-impl \
     android.hardware.memtrack@1.0-service \
     android.hardware.health@2.0-service \
