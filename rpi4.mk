@@ -33,6 +33,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     wifi.interface=wlan0 \
     ro.rfkilldisabled=1
 
+PRODUCT_SOONG_NAMESPACES += external/mesa3d
+
 # application packages
 PRODUCT_PACKAGES += \
     DeskClock \
